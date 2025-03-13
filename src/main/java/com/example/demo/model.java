@@ -1,6 +1,7 @@
 package com.example.demo;
 import java.util.*;
 class Model{
+
     List<String> baseProgram(){return Arrays.asList("NatBach","HumTek");}
     List<String> subjectModule(){return Arrays.asList("Computer Science","Informatik","Astrology");}
     List<String> baseCourse(String base){
